@@ -71,7 +71,7 @@ const Page = () => {
       {width <= 768 && (
         <div className="flex justify-start m-4 text-2xl">
           <button onClick={() => setShow(!show)}>
-            {show === true ? <IoReorderThree /> : <ImCross />}
+            {!show === true ? <IoReorderThree /> : <ImCross />}
           </button>
         </div>
       )}
@@ -113,7 +113,7 @@ const Page = () => {
             )}
           </div>
         )}
-        <div className={`md:w-3/5 w-full ml-10 mr-10 ${show ? "blur-sm" : ""}`}>
+        <div className={`md:w-3/5 w-full  ${show ? "blur-sm" : ""}`}>
           <div>
             <p className="text-2xl font-serif font-bold blu">
               Faculty Recruitment Portal
