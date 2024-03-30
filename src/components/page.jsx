@@ -94,7 +94,7 @@ const Page = () => {
         ) : (
           <div>
             {show && (
-              <div className="absolute bg-slate-300 z-50 w-11/12 mt-10 ml-3 p-4 rounded-lg items-center ">
+              <div className="absolute bg-slate-300 z-50 w-11/12 mt-10 p-4 rounded-lg items-center ">
                 <div className="flex flex-col text-white font-serif font-semibold justify-center">
                   <button className="btn-1 m-2 p-3 rounded-xl w-3/5 ml-auto mr-auto">
                     Notification
