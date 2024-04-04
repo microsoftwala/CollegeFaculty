@@ -86,18 +86,34 @@ const Page = () => {
       <div className="flex mt-6 mr-4 ml-4">
         {width >= 768 ? (
           <div className="flex flex-col w-2/5  text-white font-serif font-semibold mt-10 justify-center">
-            <button className="btn-1 m-2 p-3 rounded-xl w-3/5 ml-auto mr-auto">
+            <a
+              href="/"
+              target="_blank"
+              className="btn-1 m-2 p-3 rounded-xl w-3/5 ml-auto mr-auto"
+            >
               Notification
-            </button>
-            <button className="btn-1 m-2 p-3 rounded-xl w-3/5 ml-auto mr-auto">
+            </a>
+            <a
+              href="/"
+              target="_blank"
+              className="btn-1 m-2 p-3 rounded-xl w-3/5 ml-auto mr-auto"
+            >
               Register
-            </button>
-            <button className="btn-1 m-2 p-3 rounded-xl w-3/5 ml-auto mr-auto ">
+            </a>
+            <a
+              href="/"
+              target="_blank"
+              className="btn-1 m-2 p-3 rounded-xl w-3/5 ml-auto mr-auto "
+            >
               Login
-            </button>
-            <button className="btn-1 m-2 p-3 rounded-xl w-3/5 ml-auto mr-auto">
+            </a>
+            <a
+              href="/"
+              target="_blank"
+              className="btn-1 m-2 p-3 rounded-xl w-3/5 ml-auto mr-auto"
+            >
               Contact Us
-            </button>
+            </a>
           </div>
         ) : (
           <div>
